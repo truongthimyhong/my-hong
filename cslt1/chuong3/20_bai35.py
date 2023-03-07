@@ -1,0 +1,5 @@
+s=int(input("nhap so ngay nghi="))
+if s==0: print("xep loai A")
+elif 0<s<2: print("xep loai B")
+elif 2<s<4: print("xep loai C ")
+else: print("xep loai D")

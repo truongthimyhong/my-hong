@@ -1,0 +1,8 @@
+ten=input("Ho ten:")
+s=float(input("So ngay cong:"))
+d=float(input("Don gia ngay cong:"))
+h=float(input("He so phu cap:"))
+t=float(input("Tam ung:"))
+l=float(d*s*h)
+tl=float(l-t)
+print("Nhan vien",ten,"co tien luong",str(l),", tam ung",str(t),"va thuc linh",str(tl))
